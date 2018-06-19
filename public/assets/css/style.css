@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Libby-HeavyVersion-100';
+  src:url('../fonts/Libby-HeavyVersion-100.ttf.woff') format('woff'),
+      url('../fonts/Libby-HeavyVersion-100.ttf.svg#Libby-HeavyVersion-100') format('svg'),
+      url('../fonts/Libby-HeavyVersion-100.ttf.eot'),
+      url('../fonts/Libby-HeavyVersion-100.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'din1451alt';
+  src:url('../fonts/din1451alt.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #2b939d;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 5px;
+  margin: 5px 5px 5px -30px;
+  font-family: din1451alt, sans-serif;
+  color: #fff;
+  font-size: 1.25em;
+  line-height: 32px;
+
+}
+
+li input {
+  vertical-align: -30%;
+}
+
+h2 {
+  font-family: Libby-HeavyVersion-100, sans-serif;
+  font-size: 2em;
+  color: #fff;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  font-family: Libby-HeavyVersion-100, sans-serif;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.container {
+  min-width: 75%;
+}
+
+.uneaten {
+  float: left;
+  width: 48%;
+  background-color: #81a45c;
+  padding: 30px;
+  border: #fff 6px solid;
+}
+
+.eaten {
+  float: right;
+  width: 49%;
+  background-color: #e97266;
+  padding: 30px;
+  border: #fff 6px solid;
+}
+
+.addBurger {
+  width: 49%;
+  background-color: #e6b129;
+  padding: 30px;
+  border: #fff 6px solid;
+  margin: 30px auto;
+}
+
+#logo {
+  max-height: 300px;
+}
+
+#newBurg {
+  width: 70%;
+}
+
